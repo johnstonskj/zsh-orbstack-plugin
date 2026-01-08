@@ -1,11 +1,8 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
 # Plugin Name: orbstack
+# Description: Zsh plugin to set up environment for the OrbStack CLI.
 # Repository: https://github.com/johnstonskj/zsh-orbstack-plugin
-#
-# Description:
-#
-#   Zsh plugin to set up environment for the OrbStack CLI.
 #
 # Public variables:
 #
@@ -13,6 +10,7 @@
 #   * `_ALIASES`; a list of all aliases defined by the plugin.
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
+#   * `_OLD_ORB_HOME`; the previous value of the `ORB_HOME` environment variable.
 # * `ORB_HOME`; if set it does something magical.
 #
 
