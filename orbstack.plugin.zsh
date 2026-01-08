@@ -5,14 +5,14 @@
 #
 # Description:
 #
-#   Add one-line description here...
+#   Zsh plugin to set up environment for the OrbStack CLI.
 #
 # Public variables:
 #
 # * `ORBSTACK`; plugin-defined global associative array with the following keys:
-#   * \`_ALIASES\`; a list of all aliases defined by the plugin.
-#   * \`_FUNCTIONS\`; a list of all functions defined by the plugin.
-#   * \`_PLUGIN_DIR\`; the directory the plugin is sourced from.
+#   * `_ALIASES`; a list of all aliases defined by the plugin.
+#   * `_FUNCTIONS`; a list of all functions defined by the plugin.
+#   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
 # * `ORB_HOME`; if set it does something magical.
 #
 
