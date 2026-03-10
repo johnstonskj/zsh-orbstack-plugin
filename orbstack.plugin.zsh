@@ -1,8 +1,10 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: orbstack
-# Description: Zsh plugin to set up environment for the OrbStack CLI.
-# Repository: https://github.com/johnstonskj/zsh-orbstack-plugin
+# @name: orbstack
+# @brief: Set the environment for the OrbStack CLI.
+# @repository: https://github.com/johnstonskj/zsh-orbstack-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
 #
 # Public variables:
 #
