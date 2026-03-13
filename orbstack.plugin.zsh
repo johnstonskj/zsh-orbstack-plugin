@@ -20,7 +20,7 @@ orbstack_plugin_init() {
     builtin emulate -L zsh
 
     @zplugins_envvar_save orbstack ORB_HOME
-    export ORB_HOME="${ORB_HOME:-${HOME}/.orbstack}"
+    typeset -g ORB_HOME="${ORB_HOME:-${HOME}/.orbstack}"
 
     @zplugins_add_to_path orbstack "${ORB_HOME}/bin"
 
